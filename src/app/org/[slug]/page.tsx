@@ -68,7 +68,7 @@ export default function LandingPage() {
     <div>
       <Navbar />
       <div className="m-8 border-4 border-red-500">
-        <div className="flex items-center border border-b-blue-950 w-1/2">
+        <div className="flex items-center border border-b-blue-950 w-full">
           <Form {...form}>
             <form onSubmit={form.handleSubmit(onSubmit)} className="w-full space-y-6 p-6 border-amber-500 border m-4">
               <FormField
